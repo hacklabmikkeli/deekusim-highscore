@@ -57,7 +57,7 @@
     }
   });
   
-  app.get('/scores', (req, res) => {
+  app.get('/', (req, res) => {
     getTopScores(10)
       .then((scores) => {
         res.render('scorelist', {
@@ -68,7 +68,7 @@
       });
   });
   
-  app.get('/scores/json', (req, res) => {
+  app.get('/json', (req, res) => {
     getTopScores(10)
       .then((scores) => {
         res.send(scores);
