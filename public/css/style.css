@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #000;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 40px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #04fcdc;
+}
+
+.table-responsive {
+  border: none !important;
+  padding:15px;
+}
+
+.table-responsive > table {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+thead {
+  color: #fcfc04;
+}
+
+td,th {
+  text-align: center;
+  border-bottom: 0 !important;
+}
+
+tr > th:nth-of-type(1) {
+  text-align: left;
+}
+
+tr > th:nth-of-type(3) {
+  text-align: right;
+}
+
+tr > td:nth-of-type(1) {
+  text-align: left;
+}
+
+tr > td:nth-of-type(3) {
+  text-align: right;
+}
+
+.table > tbody > tr > td {
+  border: none;
+}
+
+tbody > tr:nth-of-type(1) {
+  color: #dcdcdc;
+}
+
+tbody > tr:nth-of-type(2) {
+  color: #fc0404;
+}
+
+tbody > tr:nth-of-type(3) {
+  color: #fcb444;
+}
+
+tbody > tr:nth-of-type(4) {
+  color: #fcb494;
+}
+
+tbody > tr:nth-of-type(5) {
+  color: #f4cc34;
+}
+
+tbody > tr:nth-of-type(6) {
+  color: #fcfc04;
+}
+
+tbody > tr:nth-of-type(7) {
+  color: #14b42c;
+}
+
+tbody > tr:nth-of-type(8) {
+  color: #04fcdc;
+}
+
+tbody > tr:nth-of-type(9) {
+  color: #149cb4;
+}
+
+tbody > tr:nth-of-type(10) {
+  color: #0cd424;
+}
